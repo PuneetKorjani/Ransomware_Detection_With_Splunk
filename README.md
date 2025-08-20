@@ -16,8 +16,9 @@ This repository contains a ransomware simulation project designed for educationa
 - Tracks script execution using **PowerShell logs**  
 - Splunk dashboards for monitoring:  
   - Panel 1: Shows before/after filenames  
-  - Panel 2: Script execution events (`EventCode=4104`)  
-  - Panel 3: Alerts if >20 files modified in 1 minute  
+  - Panel 2: Script execution events
+  - Panel 3: Malicious events with the simulate-ransom.ps1
+  - Panel 4: Alerts if >20 files modified in 1 minute  
 
 ---
 
